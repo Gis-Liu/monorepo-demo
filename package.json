@@ -1,0 +1,29 @@
+{
+  "name": "mono-vite",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "train": "pnpm --filter online-train dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "layout",
+    "@diit/ol",
+    "online-train"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "element-plus": "^2.2.28",
+    "vue": "^3.2.45"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@7.21.0"
+}
